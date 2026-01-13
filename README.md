@@ -140,7 +140,7 @@ Watch the complete application walkthrough:
 
 <div align="center">
 
-[https://github.com/user-attachments/assets/demo.mp4](https://github.com/Necromancer0912/LungInsight/blob/main/demo.mp4)
+[[https://github.com/user-attachments/assets/demo.mp4](https://github.com/Necromancer0912/LungInsight/blob/main/demo.mp4)](https://github.com/Necromancer0912/LungInsight/blob/main/demo.mp4)
 
 </div>
 
