@@ -182,11 +182,11 @@ LungInsight is a comprehensive diagnostic platform that bridges the gap between 
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│                    Electron Desktop App                   │
+│                    Electron Desktop App                  │
 │  ┌────────────────────────────────────────────────────┐  │
 │  │           React UI (Renderer Process)              │  │
-│  │  • File Upload  • Patient Intake  • Q&A Interface │  │
-│  │  • Report Parsing  • Severity Logic  • Styling    │  │
+│  │  • File Upload  • Patient Intake  • Q&A Interface  │  │
+│  │  • Report Parsing  • Severity Logic  • Styling     │  │
 │  └────────────────┬───────────────────────────────────┘  │
 │                   │ IPC (Secure Preload Bridge)          │
 │  ┌────────────────▼───────────────────────────────────┐  │
@@ -196,20 +196,20 @@ LungInsight is a comprehensive diagnostic platform that bridges the gap between 
 └───────────────────┬──────────────────────────────────────┘
                     │ HTTP/REST API
 ┌───────────────────▼──────────────────────────────────────┐
-│                  Flask Backend Server                     │
+│                  Flask Backend Server                    │
 │  ┌────────────────────────────────────────────────────┐  │
 │  │  API Routes                                        │  │
 │  │  • /health  • /audio_prediction                    │  │
 │  │  • /image_prediction  • /generate_questions        │  │
 │  │  • /analyze_responses                              │  │
 │  └───────┬─────────────────────────┬──────────────────┘  │
-│          │                         │                      │
-│  ┌───────▼──────────┐     ┌────────▼─────────────────┐  │
-│  │ ML Models        │     │ LLM Integration          │  │
-│  │ • Audio CNN      │     │ • Ollama Client          │  │
-│  │ • Image EfficNet │     │ • Prompt Engineering     │  │
-│  └──────────────────┘     └──────────────────────────┘  │
-└───────────────────────────────────────────────────────────┘
+│          │                         │                     │
+│  ┌───────▼──────────┐     ┌────────▼─────────────────┐   │
+│  │ ML Models        │     │ LLM Integration          │   │
+│  │ • Audio CNN      │     │ • Ollama Client          │   │
+│  │ • Image EfficNet │     │ • Prompt Engineering     │   │
+│  └──────────────────┘     └──────────────────────────┘   │
+└──────────────────────────────────────────────────────────┘
 ```
 
 ### Data Flow
