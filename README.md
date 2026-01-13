@@ -138,7 +138,11 @@ LungInsight is a comprehensive diagnostic platform that bridges the gap between 
 
 Watch the complete application walkthrough:
 
-https://github.com/Necromancer0912/LungInsight/assets/demo.mp4
+<div align="center">
+
+https://github.com/user-attachments/assets/demo.mp4
+
+</div>
 
 <details>
 <summary>📹 Click to expand: What's covered in the demo</summary>
@@ -151,7 +155,13 @@ https://github.com/Necromancer0912/LungInsight/assets/demo.mp4
 
 </details>
 
-> **Note**: If the video doesn't play above, you can [download demo.mp4](./demo.mp4) directly from the repository.
+> **Note**: GitHub displays videos uploaded via drag-and-drop in issues/PRs. To embed the video: 
+> 1. Create a new issue or comment
+> 2. Drag and drop `demo.mp4` into the text field
+> 3. Copy the generated URL (format: `https://github.com/user-attachments/assets/...`)
+> 4. Paste it in this README
+> 
+> Or simply [download demo.mp4](./demo.mp4) directly from the repository.
 
 ---
 
