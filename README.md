@@ -193,11 +193,11 @@ https://github.com/Necromancer0912/LungInsight/assets/demo.mp4
 
 ```
 ┌──────────────────────────────────────────────────────────┐
-│                    Electron Desktop App                   │
+│                    Electron Desktop App                  │
 │  ┌────────────────────────────────────────────────────┐  │
 │  │           React UI (Renderer Process)              │  │
-│  │  • File Upload  • Patient Intake  • Q&A Interface │  │
-│  │  • Report Parsing  • Severity Logic  • Styling    │  │
+│  │  • File Upload  • Patient Intake  • Q&A Interface  │  │
+│  │  • Report Parsing  • Severity Logic  • Styling     │  │
 │  └────────────────┬───────────────────────────────────┘  │
 │                   │ IPC (Secure Preload Bridge)          │
 │  ┌────────────────▼───────────────────────────────────┐  │
@@ -207,20 +207,20 @@ https://github.com/Necromancer0912/LungInsight/assets/demo.mp4
 └───────────────────┬──────────────────────────────────────┘
                     │ HTTP/REST API
 ┌───────────────────▼──────────────────────────────────────┐
-│                  Flask Backend Server                     │
+│                  Flask Backend Server                    │
 │  ┌────────────────────────────────────────────────────┐  │
 │  │  API Routes                                        │  │
 │  │  • /health  • /audio_prediction                    │  │
 │  │  • /image_prediction  • /generate_questions        │  │
 │  │  • /analyze_responses                              │  │
 │  └───────┬─────────────────────────┬──────────────────┘  │
-│          │                         │                      │
-│  ┌───────▼──────────┐     ┌────────▼─────────────────┐  │
-│  │ ML Models        │     │ LLM Integration          │  │
-│  │ • Audio CNN      │     │ • Ollama Client          │  │
-│  │ • Image EfficNet │     │ • Prompt Engineering     │  │
-│  └──────────────────┘     └──────────────────────────┘  │
-└───────────────────────────────────────────────────────────┘
+│          │                         │                     │
+│  ┌───────▼──────────┐     ┌────────▼─────────────────┐   │
+│  │ ML Models        │     │ LLM Integration          │   │
+│  │ • Audio CNN      │     │ • Ollama Client          │   │
+│  │ • Image EfficNet │     │ • Prompt Engineering     │   │
+│  └──────────────────┘     └──────────────────────────┘   │
+└──────────────────────────────────────────────────────────┘
 ```
 
 ### Data Flow
