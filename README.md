@@ -136,11 +136,22 @@ LungInsight is a comprehensive diagnostic platform that bridges the gap between 
 
 ### Video Demo
 
-> 📹 A complete walkthrough video (`demo.mp4`) is included in the repository, demonstrating:
-> - Patient intake and file upload
-> - Real-time disease detection
-> - Interactive clinical questionnaire
-> - Comprehensive report generation with severity assessment
+Watch the complete application walkthrough:
+
+https://github.com/Necromancer0912/LungInsight/assets/demo.mp4
+
+<details>
+<summary>📹 Click to expand: What's covered in the demo</summary>
+
+- Patient intake and file upload
+- Real-time disease detection with AI models
+- Interactive clinical questionnaire (16 targeted questions)
+- Comprehensive report generation with severity assessment
+- Full workflow from diagnosis to clinical recommendations
+
+</details>
+
+> **Note**: If the video doesn't play above, you can [download demo.mp4](./demo.mp4) directly from the repository.
 
 ---
 
