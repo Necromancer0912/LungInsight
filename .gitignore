@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+flask_server/venv/
+
+# Node / Electron
+electron_app/node_modules/
+electron_app/dist/
+
+# Uploaded/runtime artifacts
+flask_server/uploaded_files/
+.env
+flask_server/.env
+*.log
+
+# Model files (large)
+# *.pth
+# *.h5
+# *.pkl
+# *.weights
+# *.ckpt
+
+# Data files
+# *.jpg
+# *.jpeg
+# *.png
+# *.wav
+# *.mp3
+# *.avi
+
+# Keep architecture diagrams
+!detection_model/Architecture/*.png
+
+# OS/editor
+.DS_Store
+Thumbs.db
+archive
